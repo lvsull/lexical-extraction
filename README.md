@@ -1,6 +1,6 @@
 **Lexical extraction model for enhanced temporal period classification of historical texts**
 
-Liam V. Sullivan
+Liv V. Sullivan
 
 **Historians often face the difficult and time-consuming task of classifying documents into the time period in which they were written, a process known as text dating. Methods of automating this task have been created, but often struggle with documents that are about a time different than the one they were written in. This research used an inverse tf-idf statistic to generate profiles of each time period represented by a group of training documents, which was then used to mask documents by removing the least significant features of each document. Training documents were then inputted into BERT, which generated a high-dimensional vector from its pooler output. Vector representations were used to train an SVM, which was then used to classify similarly transformed testing documents. Accuracy was assessed using three metrics to quantify deviance between estimated and correct time periods. Average raw accuracy was found to be within 25% of the baseline, and no statistical significance was found between most tests. It is concluded that the proposed lexical extraction does not significantly improve accuracy, but could potentially be adjusted to positively impact the accuracy of text dating models.**
 
